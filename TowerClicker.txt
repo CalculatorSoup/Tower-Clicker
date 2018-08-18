@@ -72,12 +72,12 @@ Buildings
   desc:A simple game about typing.
   on tick:yield 1 plazaunit
   cost:25 plazaunits
-  *newItem
+ *newItem
   name:New Item
   desc:A brand new item to place in your condo.
   on tick:yield 1 condounit
   cost:25 condounits
-  *ballRace
+ *ballRace
   name:Ball Race
   desc:A new Game World.
   on tick:yield 1 gameunit
