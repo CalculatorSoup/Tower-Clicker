@@ -55,7 +55,7 @@ Resources
 		show earned
 		
 Shinies
-	*Cosmic Catsack
+	*cosmicCatsack
 		on click:cosmicLuck
 		movement:onRight moveLeft fade bounce:0.05
 		frequency:5
