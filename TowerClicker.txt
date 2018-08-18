@@ -6,9 +6,11 @@ Let's make a game!
 	updated:24/10/2017
 	version:1
 Settings
-  background:stuff/https://i.imgur.com/ko1yDMX.jpg
-  building cost increase:110%
-  building cost refund:50%
+        background:stuff/https://i.imgur.com/ko1yDMX.jpg
+        building cost increase:110%
+        building cost refund:50%
+	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+        stylesheet:stuff/bigBlue.css
 Layout
 	use default
 Buttons
@@ -65,20 +67,20 @@ Resources
 		class:noBackground
 		show earned
 Buildings
-  building cost increase:110%
-  building cost refund:50%
-*typingDerby
-  name:Typing Derby
-  desc:A simple game about typing.
-  on tick:yield 1 plazaunit
-  cost:25 plazaunits
- *newItem
-  name:New Item
-  desc:A brand new item to place in your condo.
-  on tick:yield 1 condounit
-  cost:25 condounits
- *ballRace
-  name:Ball Race
-  desc:A new Game World.
-  on tick:yield 1 gameunit
-  cost:25 gameunits
+                building cost increase:110%
+                building cost refund:50%
+               *typingDerby
+                name:Typing Derby
+                desc:A simple game about typing.
+                on tick:yield 1 plazaunit
+                cost:25 plazaunits
+               *newItem
+                name:New Item
+                desc:A brand new item to place in your condo.
+                on tick:yield 1 condounit
+                cost:25 condounits
+               *ballRace
+                name:Ball Race
+                desc:A new Game World.
+                on tick:yield 1 gameunit
+                cost:25 gameunits
