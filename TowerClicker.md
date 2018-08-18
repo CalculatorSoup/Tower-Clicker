@@ -1,4 +1,4 @@
-"Let's make a game!"
+Let's make a game!
   name:Tower Clicker
   by:rrmm
   desc:You just released a new game called Tower Unite, and now you have to update it until it becomes the most poupular video game in the world.
