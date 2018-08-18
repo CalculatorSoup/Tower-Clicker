@@ -10,7 +10,7 @@ Settings
 	background:stuff/https://i.imgur.com/ko1yDMX.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:Image, 48 by 48, https://i.imgur.com/sOOmknf.png
+	spritesheet:icon:Namespritesheet[0,0]
 	stylesheet:stuff/bigBlue.css
 
 Layout
