@@ -31,6 +31,17 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
+	*GameWorldButton
+		name:Make a game world unit
+		desc:Click this to get a game world unit.
+		on click:anim icon wobble
+		on click:yield 1 gameunit
+		icon:stuff/https://i.imgur.com/g3QMtnQ.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 Resources
 	*plazaunit|plazaunits|lobbyunit|lobbyunits
 		name:Plaza Unit|Plaza Units|Lobby Unit|Lobby Units
@@ -44,3 +55,27 @@ Resources
 		icon:icons[0,0]
 		class:noBackground
 		show earned
+	*gameunit/gameunits
+		name:Game World Unit|Game World Units
+		desc:Use Game World Units to upgrade the Game Worlds!
+		icon:icons[0,0]
+		class:noBackground
+		show earned
+Buildings
+  building cost increase:110%
+  building cost refund:50%
+*typingDerby
+  name:Typing Derby
+  desc:A simple game about typing.
+  on tick:yield 1 plazaunit
+  cost:25 plazaunits
+  *newItem
+  name:New Item
+  desc:A brand new item to place in your condo.
+  on tick:yield 1 condounit
+  cost:25 condounits
+  *ballRace
+  name:Ball Race
+  desc:A new Game World.
+  on tick:yield 1 gameunit
+  cost:25 gameunits
