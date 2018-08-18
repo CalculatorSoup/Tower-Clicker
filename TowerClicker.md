@@ -10,13 +10,37 @@ Layout
 	use default
 Buttons
 	*PlazaButton
-		name:Make a unit
-		desc:Click this to get a unit.
+		name:Make a plaza unit
+		desc:Click this to get a plaza unit.
 		on click:anim icon wobble
-		on click:yield 1 unit
+		on click:yield 1 plazaunit
 		icon:stuff/https://i.imgur.com/R28Exb3.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
-    tooltip class:red
+		tooltip class:red
+	*CondoButton
+		name:Make a condo unit
+		desc:Click this to get a condo unit.
+		on click:anim icon wobble
+		on click:yield 1 condounit
+		icon:stuff/https://i.imgur.com/g3QMtnQ.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+Resources
+	*plazaunit|plazaunits|lobbyunit|lobbyunits
+		name:Plaza Unit|Plaza Units|Lobby Unit|Lobby Units
+		desc:Use Plaza/Lobby Units to upgrade the Plaza!
+		icon:icons[0,0]
+		class:noBackground
+		show earned
+	*condounit|condounits|suiteunit|suiteunits
+		name:Condo Unit|Condo Units|Suite Unit|Suite Units
+		desc:Use Condo/Suite Units to upgrade the Condos!
+		icon:icons[0,0]
+		class:noBackground
+		show earned
