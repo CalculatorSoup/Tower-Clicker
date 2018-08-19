@@ -33,7 +33,7 @@ Buttons
 		desc:Click this to get more Condo Units!
 		on click:anim icon wobble
 		on click:yield 1 condounit
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://https://i.imgur.com/g3QMtnQ.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
