@@ -28,9 +28,9 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 		show clicks
-	*condoButton
-		name:Make a condo unit
-		desc:Click this to get more Condo Units!
+	*gameButton
+		name:Make a game world unit
+		desc:Click this to get more Game World Units!
 		on click:anim icon wobble
 		on click:yield 1 gameunit
 		icon:https://https://i.imgur.com/g3QMtnQ.png
