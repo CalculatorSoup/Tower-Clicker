@@ -100,10 +100,10 @@ Upgrades
 		
 	*robs
 		name:Rob's Imports
-		desc:A thrift store in the plaza.<//><b>Effect:</b><.>+1 bunny/click
+		desc:A thrift store in the plaza.<//><b>Effect:</b><.>+5 plazaunits/click
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
-		passive:multiply yield of stores by 2
+		passive:multiply yield of shops by 2
 		req:(shop>=10
 
 		
