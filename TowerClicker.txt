@@ -108,7 +108,7 @@ Upgrades
 	*catsack
 		name:Catsacks
 		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X1.5 condo units per click.
-		icon:https://i.imgur.com/O1iv7se.png
+		icon:https://i.imgur.com/O1iv7se.png?1
 		cost:100 condounits
 		passive:multiply condounit yield of unitButton by 1.5
 		req:500 condounits:earned
