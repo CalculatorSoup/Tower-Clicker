@@ -28,6 +28,7 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
+		show clicks
 	*condoButton
 		name:Make a condo unit
 		desc:Click this to get more Condo Units!
@@ -39,6 +40,7 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
+		show clicks
 		
 Resources
 	*plazaunit|plazaunits
