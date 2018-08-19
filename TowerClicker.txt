@@ -17,7 +17,7 @@ Layout
 		
 Buttons
 	*unitButton
-		name:Make a units
+		name:Make units
 		desc:Click this to get more Units to upgrade parts of Tower Unite!
 		on click:anim icon wobble
 		on click:yield 1 plazaunit
@@ -44,7 +44,7 @@ Resources
 		class:noBackground
 		show earned
 	*gameunit|gameunits
-		name:Condo Unit|Condo Units
+		name:Game World Unit|Game World Units
 		desc:Use Condo Units to upgrade your condos!
 		icon:https://i.imgur.com/p5Mkqnx.png?1
 		class:noBackground
@@ -62,22 +62,43 @@ Buildings
 		cost:25 plazaunit
 		on tick:yield 1 plazaunit
 		cost increase:115%
-	*item|items
-		name:New Item
-		desc:Make a new item for the condos. <//><b>Effect:</b><.>Produces 1 condo unit every second.
-		icon:https://i.imgur.com/p5Mkqnx.png
-		cost:50 condounits
-		on tick:yield 1 condounit
-		cost increase:115%
 	*shop|shops
 		name:Stores
 		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 5 plaza units every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:150 plazaunits
-		on tick:yield 5 plazaunits
+		on tick:yield 2.5 plazaunits
 		req:(typingDerby>=5)
 		limit:500
+		cost increase:110%
+	*item|items
+		name:New Item
+		desc:Make a new item for the condos. <//><b>Effect:</b><.>Produces 1 condo unit every second.
+		icon:https://i.imgur.com/uibRSSO.png
+		cost:50 condounits
+		on tick:yield 1 condounit
 		cost increase:115%
+	*planet
+		name:Planet Panic
+		desc:An in-development game world. No one ever plays it. <//><b>Effect:</b><.>Produces 1 game world unit every second.
+		icon:https://https://i.imgur.com/39f2Mzn.png
+		cost:100 gameunits
+		on tick:yield 1 gameunits
+		cost increase:110%
+	*ballrace
+		name:Ball Race
+		desc:A racing Game World. <//><b>Effect:</b><.>Produces 1 game world unit every second.
+		icon:https://i.imgur.com/p5Mkqnx.png
+		cost:300 gameunits
+		on tick:yield 5 gameunits
+		cost increase:120%
+	*golf
+		name:Minigolf
+		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 1 game world unit every second.
+		icon:https://i.imgur.com/p5Mkqnx.png
+		cost:1000 gameunits
+		on tick:yield 50 gameunits
+		cost increase:140%
 		
 Upgrades
 	*TEMPLATE
@@ -87,7 +108,7 @@ Upgrades
 	*catsack
 		name:Catsacks
 		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X1.5 condo units per click.
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/O1iv7se.png
 		cost:100 condounits
 		passive:multiply condounit yield of unitButton by 1.5
 		req:500 condounits:earned
@@ -99,5 +120,24 @@ Upgrades
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
 		req:(shop>=10)
-
-		
+	*planetmap
+		name:New Planet Panic Map
+		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X2 plazaunits per second.
+		icon:https://i.imgur.com/39f2Mzn.png
+		cost:100 plazaunits
+		passive:multiply yield of planet by 2
+		req:(ballrace>=10)
+	*ballmap
+		name:New Ball Race Map
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
+		icon:https://i.imgur.com/as59OSc.png
+		cost:100 plazaunits
+		passive:multiply yield of ballrace by 2
+		req:(ballrace>=10)
+	*golfmap
+		name:New Minigolf Map
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
+		icon:https://i.imgur.com/p5Mkqnx.png
+		cost:100 plazaunits
+		passive:multiply yield of golf by 2
+		req:(golf>=10)
