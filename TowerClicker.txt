@@ -4,7 +4,7 @@ Let's make a game!
 	desc:Testing
 	created:8/18/18
 	updated:8/18/18
-	version:0.2
+	version:0.3
 
 Settings
 	background:https://i.imgur.com/ko1yDMX.jpg
@@ -120,6 +120,27 @@ Upgrades
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
 		req:(shop>=10)
+
+Shinies
+        *cosmicCat
+                name:Cosmic Catsack
+                on click:yield (random(50000)) plazaunits
+                movement:anywhere fade bounce moveRandom growShrink
+		icon:https://i.imgur.com/sOOmknf.png
+                frequency:1000
+        *goldCat
+                name:Golden Catsack
+                on click:yield (random(5000)) condounits
+		icon:https://i.imgur.com/sOOmknf.png
+                movement:anywhere fade bounce moveRandom growShrink
+                frequency:100
+        *snail
+                name:Snail
+                on click:yield (random(5000)) condounits
+		icon:https://i.imgur.com/qCUNSCi.png
+                movement:followMouseSlow:5 fade bounce growShrink
+                frequency:100
+Items
 	*planetmap
 		name:New Planet Panic Map
 		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X2 plazaunits per second.
