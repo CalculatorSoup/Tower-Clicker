@@ -16,29 +16,19 @@ Layout
 	use default
 		
 Buttons
-	*condoButton
-		name:Make a condo unit
-		desc:Click this to get more Condo Units!
+	*unitButton
+		name:Make a units
+		desc:Click this to get more Units to upgrade parts of Tower Unite!
 		on click:anim icon wobble
-		on click:yield 1 condounit
-		icon:https://https://i.imgur.com/g3QMtnQ.png
+		on click:yield 1 plazaunit
+		on click:yield 2 condounit
+		on click:yield 3 gameunit
+		icon:https://i.imgur.com/sOOmknf.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
-		show clicks
-	*gameButton
-		name:Make a game world unit
-		desc:Click this to get more Game World Units!
-		on click:anim icon wobble
-		on click:yield 1 gameunit
-		icon:https://https://i.imgur.com/g3QMtnQ.png
-		no text
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:bottom
-		tooltip class:blue
 		show clicks
 Resources
 	*plazaunit|plazaunits
