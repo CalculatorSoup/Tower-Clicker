@@ -87,18 +87,20 @@ Buildings
 		cost increase:110%
 	*ballrace
 		name:Ball Race
-		desc:A racing Game World. <//><b>Effect:</b><.>Produces 1 game world unit every second.
+		desc:A competitive Game World about collecting melons and getting to the finish. <//><b>Effect:</b><.>Produces 5 game world units every second.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:300 gameunits
 		on tick:yield 5 gameunits
 		cost increase:120%
+		req:(planet>1)
 	*golf
 		name:Minigolf
-		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 1 game world unit every second.
+		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 50 game world units every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:1000 gameunits
 		on tick:yield 50 gameunits
 		cost increase:140%
+		req:(ballrace>1)
 		
 Upgrades
 	*TEMPLATE
@@ -120,6 +122,49 @@ Upgrades
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
 		req:(shop>=10)
+	*planetmap1
+		name:Hillside
+		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.25 Planet Panic production.
+		icon:https://i.imgur.com/39f2Mzn.png?1
+		cost:1000 gameunits
+		passive:multiply yield of planet by 1.25
+		req:(planet>=1)
+	*ballmap1
+		name:GLXY
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:1500 gameunits
+		passive:multiply yield of ballrace by 1.25
+		req:(ballrace>=1)
+	*golfmap1
+		name:Garden
+		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		icon:https://i.imgur.com/p5Mkqnx.png
+		cost:2000 gameunits
+		passive:multiply yield of golf by 1.25
+		req:(golf>=1)
+	*planetmap2
+		name:Fort
+		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.25 Planet Panic production.
+		icon:https://i.imgur.com/39f2Mzn.png?1
+		cost:2500 gameunits
+		passive:multiply yield of planet by 1.25
+		req:(planet>=5)
+	*ballmap2
+		name:Midori
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:4000 gameunits
+		passive:multiply yield of ballrace by 1.25
+		req:(ballrace>=5)
+	*golfmap2
+		name:Waterhole
+		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		icon:https://i.imgur.com/p5Mkqnx.png
+		cost:8000 gameunits
+		passive:multiply yield of golf by 1.25
+		req:(golf>=5)
+
 
 Shinies
         *cosmicCat
@@ -142,25 +187,3 @@ Shinies
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
                 frequency:50
-Items
-	*planetmap
-		name:New Planet Panic Map
-		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X2 plazaunits per second.
-		icon:https://i.imgur.com/39f2Mzn.png?1
-		cost:1000 gameunits
-		passive:multiply yield of planet by 1.25
-		req:(planet>=1)
-	*ballmap
-		name:New Ball Race Map
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:1500 gameunits
-		passive:multiply yield of ballrace by 1.25
-		req:(ballrace>=1)
-	*golfmap
-		name:New Minigolf Map
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
-		icon:https://i.imgur.com/p5Mkqnx.png
-		cost:2000 gameunits
-		passive:multiply yield of golf by 1.25
-		req:(golf>=1)
