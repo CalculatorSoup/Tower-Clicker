@@ -25,7 +25,7 @@ Buttons
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
-		tooltip origin:bottom
+		tooltip origin:top
 		tooltip class:red
 		show clicks
 	*plazaButton
@@ -37,21 +37,38 @@ Buttons
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
+		tooltip origin:center
+		tooltip class:red
+		show clicks
+	*gameButton
+		name:Make a game world unit
+		desc:Click this to get more Game World Units!
+		on click:anim icon wobble
+		on click:yield 1 gameunit
+		icon:https://i.imgur.com/R28Exb3.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
 		show clicks
-		
 Resources
 	*plazaunit|plazaunits
 		name:Plaza Unit|Plaza Units
 		desc:Use Plaza Units to upgrade your plaza!
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/p5Mkqnx.png?1
 		class:noBackground
 		show earned
 	*condounit|condounits
 		name:Condo Unit|Condo Units
 		desc:Use Condo Units to upgrade your condos!
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/p5Mkqnx.png?1
+		class:noBackground
+		show earned
+	*gameunit|gameunits
+		name:Condo Unit|Condo Units
+		desc:Use Condo Units to upgrade your condos!
+		icon:https://i.imgur.com/p5Mkqnx.png?1
 		class:noBackground
 		show earned
 		
@@ -62,28 +79,27 @@ Buildings
 		
 	*typingDerby
 		name:Typing Derby
-		desc:A small game in the plaza about typing. <//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
+		desc:A small game in the plaza about typing. <//><b>Effect:</b><.>Produces 1 plaza unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:25 plazaunit
 		on tick:yield 1 plazaunit
-		cost increase: 105
+		cost increase:115%
 	*item|items
 		name:New Item
-		desc:A new item for your condo. <//><b>Effect:</b><.>Produces 1 Condo Unit every second.
+		desc:A new item for your condo. <//><b>Effect:</b><.>Produces 1 condo unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:50 condounits
 		on tick:yield 1 condounit
-		req:50 condounits:earned
-		cost increase:105%
+		cost increase:115%
 	*shop|shops
 		name:Stores
-		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 1 Plaza Unit every second.
+		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 1 game world unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		on tick:yield 5 plazaunits
-		req:(typingDerby>=10)
+		req:(typingDerby>=5)
 		limit:500
-		cost increase:105%
+		cost increase:115%
 		
 Upgrades
 	*TEMPLATE
