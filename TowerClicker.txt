@@ -16,24 +16,24 @@ Layout
 	use default
 		
 Buttons
-	*plazaButton
-		name:Make a plaza unit
-		desc:Click this to get more Plaza Units!
-		on click:anim icon wobble
-		on click:yield 1 plazaunit
-		icon:stuff/https://i.imgur.com/R28Exb3.png
-		no text
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:bottom
-		tooltip class:red
-		show clicks
 	*condoButton
 		name:Make a condo unit
 		desc:Click this to get more Condo Units!
 		on click:anim icon wobble
 		on click:yield 1 condounit
 		icon:https://https://i.imgur.com/g3QMtnQ.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+		show clicks
+	*plazaButton
+		name:Make a plaza unit
+		desc:Click this to get more Plaza Units!
+		on click:anim icon wobble
+		on click:yield 1 plazaunit
+		icon:stuff/https://i.imgur.com/R28Exb3.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
