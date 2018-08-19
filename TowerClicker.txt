@@ -81,14 +81,14 @@ Buildings
 	*planet
 		name:Planet Panic
 		desc:An in-development game world. No one ever plays it. <//><b>Effect:</b><.>Produces 1 game world unit every second.
-		icon:https://https://i.imgur.com/39f2Mzn.png
+		icon:https://i.imgur.com/39f2Mzn.png?1
 		cost:100 gameunits
 		on tick:yield 1 gameunits
 		cost increase:110%
 	*ballrace
 		name:Ball Race
 		desc:A racing Game World. <//><b>Effect:</b><.>Produces 1 game world unit every second.
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/as59OSc.png?1
 		cost:300 gameunits
 		on tick:yield 5 gameunits
 		cost increase:120%
@@ -123,14 +123,14 @@ Upgrades
 	*planetmap
 		name:New Planet Panic Map
 		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X2 plazaunits per second.
-		icon:https://i.imgur.com/39f2Mzn.png
+		icon:https://i.imgur.com/39f2Mzn.png?1
 		cost:100 plazaunits
 		passive:multiply yield of planet by 2
 		req:(ballrace>=10)
 	*ballmap
 		name:New Ball Race Map
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
-		icon:https://i.imgur.com/as59OSc.png
+		icon:https://i.imgur.com/as59OSc.png?1
 		cost:100 plazaunits
 		passive:multiply yield of ballrace by 2
 		req:(ballrace>=10)
