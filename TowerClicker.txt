@@ -99,7 +99,7 @@ Buildings
 		cost increase:105%
 	*shop|shops
 		name:Stores
-		desc:Stores are where you buy items for your stores! <//><b>Effect:</b><.>Produces 1 Plaza Unit every second.
+		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 1 Plaza Unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		on tick:yield 5 plazaunits
