@@ -131,7 +131,7 @@ Shinies
         *goldCat
                 name:Golden Catsack
                 on click:yield (random(5000)) condounits
-		icon:https://i.imgur.com/sOOmknf.png
+		icon:https://i.imgur.com/tC6pj6n.png
                 movement:anywhere fade bounce moveRandom growShrink
                 frequency:100
         *snail
@@ -145,20 +145,20 @@ Items
 		name:New Planet Panic Map
 		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X2 plazaunits per second.
 		icon:https://i.imgur.com/39f2Mzn.png?1
-		cost:100 plazaunits
-		passive:multiply yield of planet by 2
-		req:(ballrace>=10)
+		cost:1000 gameunits
+		passive:multiply yield of planet by 1.25
+		req:(planet>=1)
 	*ballmap
 		name:New Ball Race Map
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
 		icon:https://i.imgur.com/as59OSc.png?1
-		cost:100 plazaunits
-		passive:multiply yield of ballrace by 2
-		req:(ballrace>=10)
+		cost:1500 gameunits
+		passive:multiply yield of ballrace by 1.25
+		req:(ballrace>=1)
 	*golfmap
 		name:New Minigolf Map
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X2 plazaunits per second.
 		icon:https://i.imgur.com/p5Mkqnx.png
-		cost:100 plazaunits
-		passive:multiply yield of golf by 2
-		req:(golf>=10)
+		cost:2000 gameunits
+		passive:multiply yield of golf by 1.25
+		req:(golf>=1)
