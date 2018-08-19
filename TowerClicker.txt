@@ -136,8 +136,8 @@ Shinies
                 frequency:100
         *snail
                 name:Snail
-                on click:divides income
-		on click:multiplies income x2
+                on click:divides income x2
+		on click:multiplies income x3
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
                 frequency:50
