@@ -3,8 +3,8 @@ Let's make a game!
 	by:rrmm
 	desc:Testing
 	created:8/18/18
-	updated:8/18/18
-	version:0.3
+	updated:8/19/18
+	version:0.4
 
 Settings
 	background:https://i.imgur.com/ko1yDMX.jpg
@@ -78,6 +78,14 @@ Buildings
 		cost:50 condounits
 		on tick:yield 1 condounit
 		cost increase:115%
+	*condo
+		name:New Condo
+		desc:Make new condos to build in. <//><b>Effect:</b><.>Produces 1 condo unit every second.
+		icon:https://i.imgur.com/npwDFrJ.png?1
+		cost:500 condounits
+		on tick:yield 5 condounit
+		cost increase:115%
+		req:(item>=15)
 	*planet
 		name:Planet Panic
 		desc:An in-development game world. No one ever plays it. <//><b>Effect:</b><.>Produces 1 game world unit every second.
@@ -89,18 +97,42 @@ Buildings
 		name:Ball Race
 		desc:A competitive Game World about collecting melons and getting to the finish. <//><b>Effect:</b><.>Produces 5 game world units every second.
 		icon:https://i.imgur.com/as59OSc.png?1
-		cost:300 gameunits
+		cost:1500 gameunits
 		on tick:yield 5 gameunits
 		cost increase:120%
-		req:(planet>1)
+		req:(planet>5)
+	*lc
+		name:Little Crusaders
+		desc:A game world where knights try to press a dragon's button. <//><b>Effect:</b><.>Produces 15 game world units every second.
+		icon:https://i.imgur.com/RTtoQg3.png?1
+		cost:10000 gameunits
+		on tick:yield 20 gameunits
+		cost increase:130%
+		req:(ballrace>15)
+	*zm
+		name:Zombie Massacre
+		desc:A coop game world where up to 6 people kill zombies for 6 days. <//><b>Effect:</b><.>Produces 30 game world units every second.
+		icon:https://i.imgur.com/Oa6pUAy.png?1
+		cost:300000 gameunits
+		on tick:yield 50 gameunits
+		cost increase:140%
+		req:(lc>30)
+	*v
+		name:Virus
+		desc:A game world where a zombie has to spread the virus to everybody. <//><b>Effect:</b><.>Produces 20 game world units every second.
+		icon:https://i.imgur.com/xCOmmx4.png?1
+		cost:5000000 gameunits
+		on tick:yield 500 gameunits
+		cost increase:150%
+		req:(zm>50)
 	*golf
 		name:Minigolf
-		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 20 game world units every second.
-		icon:https://i.imgur.com/p5Mkqnx.png
-		cost:1000 gameunits
-		on tick:yield 20 gameunits
-		cost increase:140%
-		req:(ballrace>1)
+		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 80 game world units every second.
+		icon:https://i.imgur.com/1kkFPvT.png?1
+		cost:10000000 gameunits
+		on tick:yield 1000 gameunits
+		cost increase:160%
+		req:(v>100)
 		
 Upgrades
 	*TEMPLATE
@@ -139,7 +171,7 @@ Upgrades
 	*golfmap1
 		name:Garden
 		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/1kkFPvT.png
 		cost:2000 gameunits
 		passive:multiply yield of golf by 1.25
 		req:(golf>=1)
@@ -160,7 +192,7 @@ Upgrades
 	*golfmap2
 		name:Waterhole
 		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/1kkFPvT.png
 		cost:8000 gameunits
 		passive:multiply yield of golf by 1.25
 		req:(golf>=5)
@@ -173,12 +205,6 @@ Shinies
                 movement:anywhere fade bounce moveRandom growShrink
 		icon:https://i.imgur.com/sOOmknf.png
                 frequency:1000
-        *goldCat
-                name:Golden Catsack
-                on click:yield (random(5000)) condounits
-		icon:https://i.imgur.com/tC6pj6n.png
-                movement:anywhere fade bounce moveRandom growShrink
-                frequency:100
         *snail
                 name:Snail
 		on click:yield (random(5,000)) condounits
@@ -187,3 +213,9 @@ Shinies
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
                 frequency:50
+        *goldCat
+                name:Golden Catsack
+                on click:yield (random(5000)) condounits
+		icon:https://i.imgur.com/tC6pj6n.png
+                movement:anywhere fade bounce moveRandom growShrink
+                frequency:100
