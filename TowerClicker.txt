@@ -202,9 +202,9 @@ Shinies
         *cosmicCat
                 name:Cosmic Catsack
                 on click:yield (random(50000)) plazaunits
-                movement:anywhere fade bounce moveRandom growShrink
+                movement:anywhere fade moveRandom growShrink
 		icon:https://i.imgur.com/sOOmknf.png
-                frequency:1000
+                frequency:1
         *snail
                 name:Snail
 		on click:yield (random(5,000)) condounits
@@ -212,10 +212,10 @@ Shinies
 		on click:yield (random(5,000)) plazaunits
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
-                frequency:50
+                frequency:1
         *goldCat
                 name:Golden Catsack
                 on click:yield (random(5000)) condounits
 		icon:https://i.imgur.com/tC6pj6n.png
-                movement:anywhere fade bounce moveRandom growShrink
-                frequency:100
+                movement:anywhere fade moveRandom growShrink
+                frequency:1
