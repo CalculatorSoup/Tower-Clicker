@@ -23,7 +23,7 @@ Buttons
 		on click:yield 1 plazaunit
 		on click:yield 2 condounit
 		on click:yield 3 gameunit
-		icon:https://i.imgur.com/DQiB3YN.png
+		icon:https://i.imgur.com/DQiB3YN.png?1
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -95,10 +95,10 @@ Buildings
 		req:(planet>1)
 	*golf
 		name:Minigolf
-		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 50 game world units every second.
+		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 20 game world units every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:1000 gameunits
-		on tick:yield 50 gameunits
+		on tick:yield 20 gameunits
 		cost increase:140%
 		req:(ballrace>1)
 		
