@@ -7,7 +7,7 @@ Let's make a game!
 	version:0.1
 
 Settings
-	background:stuff/https://i.imgur.com/ko1yDMX.jpg
+	background:https://i.imgur.com/ko1yDMX.jpg
 	building cost increase:115%
 	building cost refund:50%
 	stylesheet:stuff/bigBlue.css
