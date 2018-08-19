@@ -10,7 +10,7 @@ Settings
 	background:stuff/https://i.imgur.com/ko1yDMX.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icon:https://imgur.com/sOOmknf.png[0,5]
+	spritesheet:plazau, 48 by 48, url.jpg
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -33,7 +33,7 @@ Buttons
 		desc:Click this to get more Condo Units!
 		on click:anim icon wobble
 		on click:yield 1 condounit
-		icon:stuff/https://i.imgur.com/g3QMtnQ.png
+		spritesheet:plazau, 48 by 48, url.jpg
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
