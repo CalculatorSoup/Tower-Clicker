@@ -57,23 +57,23 @@ Buildings
 		
 	*typingDerby
 		name:Typing Derby
-		desc:A small game in the plaza about typing. <//><b>Effect:</b><.>Produces 1 plaza unit every second.
+		desc:A fun racing game in the plaza about typing. <//><b>Effect:</b><.>Produces 1 plaza unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:25 plazaunit
 		on tick:yield 1 plazaunit
 		cost increase:115%
 	*item|items
 		name:New Item
-		desc:A new item for your condo. <//><b>Effect:</b><.>Produces 1 condo unit every second.
+		desc:Make a new item for the condos. <//><b>Effect:</b><.>Produces 1 condo unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:50 condounits
 		on tick:yield 1 condounit
 		cost increase:115%
 	*shop|shops
 		name:Stores
-		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 1 game world unit every second.
+		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 5 plaza units every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
-		cost:100 plazaunits
+		cost:150 plazaunits
 		on tick:yield 5 plazaunits
 		req:(typingDerby>=5)
 		limit:500
@@ -86,15 +86,15 @@ Upgrades
 	
 	*catsack
 		name:Catsacks
-		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>+3 condounits/click
+		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X1.5 condo units per click.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 condounits
-		passive:increase condounit yield of condoButton by 3
-		req:200 condounits:earned
+		passive:multiply condounit yield of unitButton by 1.5
+		req:500 condounits:earned
 		
 	*robs
 		name:Rob's Imports
-		desc:A thrift store in the plaza.<//><b>Effect:</b><.>+5 plazaunits/click
+		desc:A thrift store in the plaza.<//><b>Effect:</b><.>X2 plazaunits per second.
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
