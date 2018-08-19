@@ -25,32 +25,20 @@ Buttons
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
-		tooltip origin:top
+		tooltip origin:bottom
 		tooltip class:red
 		show clicks
-	*plazaButton
-		name:Make a plaza unit
-		desc:Click this to get more Plaza Units!
-		on click:anim icon wobble
-		on click:yield 1 plazaunit
-		icon:https://i.imgur.com/R28Exb3.png
-		no text
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:top
-		tooltip class:red
-		show clicks
-	*gameButton
-		name:Make a game world unit
-		desc:Click this to get more Game World Units!
+	*condoButton
+		name:Make a condo unit
+		desc:Click this to get more Condo Units!
 		on click:anim icon wobble
 		on click:yield 1 gameunit
-		icon:https://i.imgur.com/R28Exb3.png
+		icon:https://https://i.imgur.com/g3QMtnQ.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
-		tooltip class:red
+		tooltip class:blue
 		show clicks
 Resources
 	*plazaunit|plazaunits
