@@ -115,7 +115,7 @@ Upgrades
 		
 	*robs
 		name:Rob's Imports
-		desc:A thrift store in the plaza.<//><b>Effect:</b><.>X2 plazaunits per second.
+		desc:A thrift store in the plaza.<//><b>Effect:</b><.>X2 Store production.
 		icon:https://i.imgur.com/4BsJ7Mf.png?1
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
@@ -136,7 +136,8 @@ Shinies
                 frequency:100
         *snail
                 name:Snail
-                on click:yield (random(5000)) condounits
+                on click:multiply yield of all by 3
+		on click:divide tick speed of all by 2
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
                 frequency:100
