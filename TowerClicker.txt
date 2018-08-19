@@ -136,8 +136,8 @@ Shinies
                 frequency:100
         *snail
                 name:Snail
-                on click:multiply yield of all by 3
-		on click:divide tick speed of all by 2
+                on click:all:multiply yield by 3
+		on click:all:divide tick speed by 2
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
                 frequency:100
