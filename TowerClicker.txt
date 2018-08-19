@@ -33,7 +33,7 @@ Buttons
 		desc:Click this to get more Plaza Units!
 		on click:anim icon wobble
 		on click:yield 1 plazaunit
-		icon:stuff/https://i.imgur.com/R28Exb3.png
+		icon:https://i.imgur.com/R28Exb3.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
