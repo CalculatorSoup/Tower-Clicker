@@ -65,16 +65,15 @@ Shinies
 		class:bigButton
 		on click:
 			$boost=1
-			if (have clover) $boost=4
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of plaza unit production
 				$amount=max(7,random(plazaunits:ps*60*1,plazaunits:ps*60*3))*$boost
-				toast The golden catsack grants you<//><b>[$amount] plaza units</b>.
+				toast The golden catsack grants you<//><b>[$amount] plazaunits</b>.
 				yield $500 plazaunits
 			else
 				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
-				yield $amount goldenCarrot
+				toast The golden catsack grants you<//><b>[$amount] plazaunit[s?$amount]</b>!
+				yield $1000 plazaunit
 			end
 		end
 
