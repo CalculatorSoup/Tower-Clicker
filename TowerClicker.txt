@@ -10,7 +10,6 @@ Settings
 	background:stuff/https://i.imgur.com/ko1yDMX.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:plazau, 48 by 48, https://i.imgur.com/p5Mkqnx.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -34,7 +33,7 @@ Buttons
 		desc:Click this to get more Condo Units!
 		on click:anim icon wobble
 		on click:yield 1 condounit
-		spritesheet:plazau, 48 by 48, https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/p5Mkqnx.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -46,13 +45,13 @@ Resources
 	*plazaunit|plazaunits
 		name:Plaza Unit|Plaza Units
 		desc:Use Plaza Units to upgrade your plaza!
-		icon:icons[0,4]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		class:noBackground
 		show earned
 	*condounit|condounits
 		name:Condo Unit|Condo Units
 		desc:Use Condo Units to upgrade your condos!
-		icon:icons[0,1]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		class:noBackground
 		show earned
 		
@@ -62,7 +61,7 @@ Shinies
 		movement:onRight moveLeft fade bounce:0.05
 		frequency:30
 		frequency variation:50
-		icon:stuff/https://i.imgur.com/sOOmknf.png
+		icon:https://i.imgur.com/sOOmknf.png
 		class:bigButton
 		on click:
 			$boost=1
@@ -86,14 +85,14 @@ Buildings
 	*typingDerby
 		name:Typing Derby
 		desc:A small game in the plaza about typing. <//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
-		icon:icons[3,0]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:25 plazaunit
 		on tick:yield 1 plazaunit
 		cost increase: 105
 	*item|items
 		name:New Item
 		desc:A new item for your condo. <//><b>Effect:</b><.>Produces 1 Condo Unit every second.
-		icon:icons[3,2]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:50 condounits
 		on tick:yield 1 condounit
 		req:50 condounits:earned
@@ -101,7 +100,7 @@ Buildings
 	*store|stores
 		name:Stores
 		desc:Stores are where you buy items for your stores! <//><b>Effect:</b><.>Produces 1 Plaza Unit every second.
-		icon:icons[3,1]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		on tick:yield 5 plazaunits
 		req:10 typingDerby:earned
@@ -116,7 +115,7 @@ Upgrades
 	*catsack
 		name:Catsacks
 		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>+3 condounits/click
-		icon:icons[1,1]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 condounits
 		passive:increase condounit yield of condoButton by 3
 		req:200 condounits:earned
@@ -124,7 +123,7 @@ Upgrades
 	*robs
 		name:Rob's Imports
 		desc:A thrift store in the plaza.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,2]
+		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		passive:multiply yield of stores by 2
 		req:(stores>=10
