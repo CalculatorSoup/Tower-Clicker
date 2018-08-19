@@ -137,7 +137,7 @@ Shinies
         *snail
                 name:Snail
 		on click:yield (random(5,000)) condounits
-		on click:yield (random(5,000)) gamenits
+		on click:yield (random(5,000)) gameunits
 		on click:yield (random(5,000)) plazaunits
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
