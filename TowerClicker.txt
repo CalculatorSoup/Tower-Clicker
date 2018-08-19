@@ -4,7 +4,7 @@ Let's make a game!
 	desc:Testing
 	created:8/18/18
 	updated:8/18/18
-	version:0.1
+	version:0.2
 
 Settings
 	background:https://i.imgur.com/ko1yDMX.jpg
