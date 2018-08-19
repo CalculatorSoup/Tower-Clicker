@@ -37,7 +37,7 @@ Buttons
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
-		tooltip origin:center
+		tooltip origin:middle
 		tooltip class:red
 		show clicks
 	*gameButton
