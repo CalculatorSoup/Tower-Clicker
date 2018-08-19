@@ -104,6 +104,6 @@ Upgrades
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
-		req:(shop>=10
+		req:(shop>=10)
 
 		
