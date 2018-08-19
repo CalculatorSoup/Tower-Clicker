@@ -81,7 +81,7 @@ Buildings
 		icon:https://i.imgur.com/p5Mkqnx.png
 		cost:100 plazaunits
 		on tick:yield 5 plazaunits
-		req:10 typingDerby:earned
+		req:(typingDerby>=10)
 		limit:500
 		cost increase:105%
 		
