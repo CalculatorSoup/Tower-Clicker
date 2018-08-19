@@ -97,7 +97,7 @@ Buildings
 		on tick:yield 1 condounit
 		req:50 condounits:earned
 		cost increase:105%
-	*store|stores
+	*shop|shops
 		name:Stores
 		desc:Stores are where you buy items for your stores! <//><b>Effect:</b><.>Produces 1 Plaza Unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
