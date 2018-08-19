@@ -65,7 +65,7 @@ Buildings
 	*shop|shops
 		name:Stores
 		desc:Stores are where you buy items for your condos! <//><b>Effect:</b><.>Produces 5 plaza units every second.
-		icon:https://i.imgur.com/p5Mkqnx.png
+		icon:https://i.imgur.com/4BsJ7Mf.png?1
 		cost:150 plazaunits
 		on tick:yield 2.5 plazaunits
 		req:(typingDerby>=5)
@@ -116,7 +116,7 @@ Upgrades
 	*robs
 		name:Rob's Imports
 		desc:A thrift store in the plaza.<//><b>Effect:</b><.>X2 plazaunits per second.
-		icon:https://i.imgur.com/PFeRZgy.png
+		icon:https://i.imgur.com/4BsJ7Mf.png?1
 		cost:100 plazaunits
 		passive:multiply yield of shops by 2
 		req:(shop>=10)
