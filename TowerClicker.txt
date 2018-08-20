@@ -141,11 +141,32 @@ Upgrades
 	
 	*catsack
 		name:Catsacks
-		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X1.5 condo units per click.
+		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X2 condo units, 2X plaza units and x1.5 game world units per click.
 		icon:https://i.imgur.com/O1iv7se.png?1
 		cost:100 condounits
-		passive:multiply condounit yield of unitButton by 1.5
-		req:500 condounits:earned
+		passive:multiply condounit yield of unitButton by 2
+		passive:multiply gameunit yield of unitButton by 1.5
+		passive:multiply plazaunit yield of unitButton by 2
+		req:750 condounits:earned
+		req:(item>=15)
+	*silvercatsack
+		name:Silver Catsacks
+		desc:Silver Catsacks are upgraded catsacks that give a random item when opened. <//><b>Effect:</b><.>X3 New Item  production.
+		icon:https://i.imgur.com/O1iv7se.png?1
+		cost:10000 condounits
+		passive:multiply yield of item by 3
+		req:10000 condounits:earned
+		req:(item>=30)
+		req:(catsack>=1)
+	*goldcatsack
+		name:Silver Catsacks
+		desc:Gold Catsacks are rare catsacks that can only come from silver ones. <//><b>Effect:</b><.>Snails and Cosmic Catsacks start appearing occasionally.
+		icon:https://i.imgur.com/tC6pj6n.png?1
+		cost:100000 condounits
+		passive:multiply yield of item by 3
+		req:15000 condounits:earned
+		req:(item>=50)
+		req:(silvercatsack>=1)
 		
 	*robs
 		name:Rob's Imports
