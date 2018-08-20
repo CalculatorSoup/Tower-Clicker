@@ -258,7 +258,7 @@ Shinies
        *snail
                name:Snail
                on click:yield (random(10,100)) gameunits
-               movement:followMouseSlow:50
+               movement:followMouseSlow
                frequency:1
 	       frequency variation:1
 	       duration:10
@@ -266,7 +266,7 @@ Shinies
        *cosmicCat
                name:Cosmic Catsack
                on click:yield (random(100,000)) condounits
-               movement:followMouseSlow:50
+               movement:followMouseSlow
                frequency:1
 	       frequency variation:1
 	       duration:10
@@ -274,7 +274,7 @@ Shinies
        *Test
                name:Test
                on click:yield (random(100,000)) plazaunits
-               movement:followMouseSlow:50
+               movement:followMouseSlow
                frequency:1
 	       frequency variation:1
 	       duration:10
