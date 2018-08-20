@@ -249,7 +249,7 @@ Shinies
        *goldCat
                name:Golden Catsack
                on click:yield (random(100,000)) condounits
-	       toast You got $number condo units!
+	       toast The Golden Catsack opened and contained<//><b>[$amount] condo unit[s?$amount]</b>!
                movement:anywhere shrink spinCW
                frequency:10
 	       frequency variation:10
@@ -258,7 +258,7 @@ Shinies
        *snail
                name:Snail
                on click:yield (random(10000)) gameunits
-	       toast You got $number game world units!
+	       toast The snail gives you<//><b>[$amount] game world unit[s?$amount]</b>from its shell!
                movement:anywhere wiggle grow followMouseSlow
                frequency:70
 	       frequency variation:40
@@ -267,12 +267,11 @@ Shinies
        *cosmicCat
                name:Cosmic Catsack
                on click:yield (random(100000)) condounits
-	       toast You got $number condo units!
+	       toast The cosmic catsack opened and contained<//><b>[$amount] condo unit[s?$amount]</b>!
                movement:anywhere shrink spinCW
                frequency:500
 	       frequency variation:100
 	       duration:10
-	       toast
 	       icon:https://i.imgur.com/qCUNSCi.png
        *Potato
                name:Potato
@@ -282,5 +281,5 @@ Shinies
                frequency:30
 	       frequency variation:20
 	       duration:10
-	       toast
+	       toast The Potato was squished and it contained<//><b>[$amount] golden carrot[s?$amount]</b>!
 	       icon:https://i.imgur.com/qCUNSCi.png
