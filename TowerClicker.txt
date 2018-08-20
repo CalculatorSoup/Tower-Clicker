@@ -257,19 +257,25 @@ Upgrades
 Shinies
        *snail
                name:Snail
-	       icon:https://i.imgur.com/qCUNSCi.png
                on click:yield (random(10,100)) gameunits
                movement:followMouseSlow:50
                frequency:1
+	       frequency variation:1
+	       duration:10
+	       icon:https://i.imgur.com/qCUNSCi.png
        *cosmicCat
                name:Cosmic Catsack
-	       icon:https://i.imgur.com/qCUNSCi.png
                on click:yield (random(100,000)) condounits
                movement:followMouseSlow:50
                frequency:1
+	       frequency variation:1
+	       duration:10
+	       icon:https://i.imgur.com/qCUNSCi.png
        *Test
                name:Test
-	       icon:https://i.imgur.com/qCUNSCi.png
                on click:yield (random(100,000)) plazaunits
                movement:followMouseSlow:50
                frequency:1
+	       frequency variation:1
+	       duration:10
+	       icon:https://i.imgur.com/qCUNSCi.png
