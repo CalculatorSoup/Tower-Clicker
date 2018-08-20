@@ -266,7 +266,7 @@ Shinies
        *cosmicCat
                name:Cosmic Catsack
                on click:yield (random(100,000)) condounits
-               movement:anywhere shrink spin CW
+               movement:anywhere shrink spinCW
                frequency:10
 	       frequency variation:10
 	       duration:10
