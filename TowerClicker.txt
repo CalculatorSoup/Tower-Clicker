@@ -263,9 +263,3 @@ Shinies
                 movement:followMouseSlow:5 fade bounce growShrink
 		icon:stuff/https://i.imgur.com/qCUNSCi.png
                 frequency:1
-        *cosmicCat
-                name:Cosmic Catsack
-                on click:yield (random(50000)) plazaunits
-                movement:anywhere fade moveRandom growShrink
-		icon:stuff/https://i.imgur.com/sOOmknf.png
-                frequency:1
