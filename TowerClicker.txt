@@ -274,9 +274,8 @@ Shinies
        *Test
                name:Potato [;
                on click:yield (random(100,000)) plazaunits
-	       icon:https://i.imgur.com/qCUNSCi.png
                movement:random
                frequency:10
 	       frequency variation:10
 	       duration:10
-	       
+	       icon:https://i.imgur.com/qCUNSCi.png
