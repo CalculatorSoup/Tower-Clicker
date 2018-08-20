@@ -274,7 +274,7 @@ Shinies
                name:Potato
                on click:yield (random(100,000)) plazaunits
                movement:anywhere bounce moveRandom
-               frequency:10
-	       frequency variation:10
+               frequency:1
+	       frequency variation:1
 	       duration:10
 	       icon:https://i.imgur.com/qCUNSCi.png
