@@ -22,7 +22,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 plazaunit
 		on click:yield 2 condounit
-		on click:yield 3 gameunit
+		on click:yield 5 gameunit
 		icon:https://i.imgur.com/DQiB3YN.png?1
 		no text
 		class:bigButton hasFlares
@@ -143,7 +143,7 @@ Upgrades
 		name:Catsacks
 		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X2 condo units, 2X plaza units and x1.5 game world units per click.
 		icon:https://i.imgur.com/O1iv7se.png?1
-		cost:100 condounits
+		cost:1000 condounits
 		passive:multiply condounit yield of unitButton by 2
 		passive:multiply gameunit yield of unitButton by 1.5
 		passive:multiply plazaunit yield of unitButton by 2
@@ -180,57 +180,57 @@ Upgrades
 		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.25 Planet Panic production.
 		icon:https://i.imgur.com/39f2Mzn.png?1
 		cost:1000 gameunits
-		passive:multiply yield of planet by 1.25
+		passive:multiply yield of planet by 1.5
 		req:(planet>=1)
 	*ballmap1
 		name:GLXY
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.25 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:1500 gameunits
-		passive:multiply yield of ballrace by 1.25
+		passive:multiply yield of ballrace by 1.5
 		req:(ballrace>=1)
 	*golfmap1
 		name:Garden
 		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
 		icon:https://i.imgur.com/1kkFPvT.png
 		cost:2000 gameunits
-		passive:multiply yield of golf by 1.25
+		passive:multiply yield of golf by 1.5
 		req:(golf>=1)
 	*planetmap2
 		name:Fort
 		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.25 Planet Panic production.
 		icon:https://i.imgur.com/39f2Mzn.png?1
 		cost:2500 gameunits
-		passive:multiply yield of planet by 1.25
+		passive:multiply yield of planet by 1.5
 		req:(planet>=5)
 	*ballmap2
 		name:Midori
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.25 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:4000 gameunits
-		passive:multiply yield of ballrace by 1.25
+		passive:multiply yield of ballrace by 1.5
 		req:(ballrace>=5)
 	*golfmap2
 		name:Waterhole
 		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
 		icon:https://i.imgur.com/1kkFPvT.png
 		cost:8000 gameunits
-		passive:multiply yield of golf by 1.25
+		passive:multiply yield of golf by 1.5
 		req:(golf>=5)
 
 
 Shinies
-        *cosmicCat
-                name:Cosmic Catsack
-                on click:yield (random(50000)) plazaunits
-                movement:anywhere fade moveRandom growShrink
-		icon:stuff/https://i.imgur.com/sOOmknf.png
-                frequency:1
         *snail
                 name:Snail
 		on click:yield (random(5,000)) condounits
 		on click:yield (random(5,000)) gameunits
 		on click:yield (random(5,000)) plazaunits
-		icon:stuff/https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
+		icon:stuff/https://i.imgur.com/qCUNSCi.png
+                frequency:1
+        *cosmicCat
+                name:Cosmic Catsack
+                on click:yield (random(50000)) plazaunits
+                movement:anywhere fade moveRandom growShrink
+		icon:stuff/https://i.imgur.com/sOOmknf.png
                 frequency:1
