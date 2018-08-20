@@ -159,8 +159,8 @@ Upgrades
 		req:(item>=30)
 		req:(catsack>=1)
 	*goldcatsack
-		name:Silver Catsacks
-		desc:Gold Catsacks are rare catsacks that can only come from silver ones. <//><b>Effect:</b><.>Snails and Cosmic Catsacks start appearing occasionally.
+		name:Golden Catsacks
+		desc:Golden Catsacks are rare catsacks that can only come from silver ones. <//><b>Effect:</b><.>Snails and Cosmic Catsacks start appearing occasionally.
 		icon:https://i.imgur.com/tC6pj6n.png?1
 		cost:100000 condounits
 		passive:multiply yield of item by 3
@@ -177,42 +177,77 @@ Upgrades
 		req:(shop>=10)
 	*planetmap1
 		name:Hillside
-		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.25 Planet Panic production.
+		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.5 Planet Panic production.
 		icon:https://i.imgur.com/39f2Mzn.png?1
 		cost:1000 gameunits
 		passive:multiply yield of planet by 1.5
 		req:(planet>=1)
 	*ballmap1
-		name:GLXY
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		name:Nimbus
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Ball Race production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:1500 gameunits
 		passive:multiply yield of ballrace by 1.5
 		req:(ballrace>=1)
-	*golfmap1
-		name:Garden
-		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
-		icon:https://i.imgur.com/1kkFPvT.png
-		cost:2000 gameunits
-		passive:multiply yield of golf by 1.5
-		req:(golf>=1)
-	*planetmap2
-		name:Fort
-		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.25 Planet Panic production.
-		icon:https://i.imgur.com/39f2Mzn.png?1
-		cost:2500 gameunits
-		passive:multiply yield of planet by 1.5
-		req:(planet>=5)
 	*ballmap2
-		name:Midori
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		name:GLXY
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:4000 gameunits
 		passive:multiply yield of ballrace by 1.5
 		req:(ballrace>=5)
+	*ballmap3
+		name:Paradise
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:8000 gameunits
+		passive:multiply yield of ballrace by 1.5
+		req:(ballrace>=5)
+	*ballmap4
+		name:Memories
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:15000 gameunits
+		passive:multiply yield of ballrace by 1.5
+		req:(ballrace>=5)
+	*ballmap5
+		name:Summit
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:25000 gameunits
+		passive:multiply yield of ballrace by 1.5
+		req:(ballrace>=5)
+	*ballmap6
+		name:Khromidro
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:50000 gameunits
+		passive:multiply yield of ballrace by 1.5
+		req:(ballrace>=5)
+	*ballmap7
+		name:Midori
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:750000 gameunits
+		passive:multiply yield of ballrace by 1.5
+		req:(ballrace>=5)
+	*ballmap8
+		name:Prism
+		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/as59OSc.png?1
+		cost:150000 gameunits
+		passive:multiply yield of ballrace by 1.5
+		req:(ballrace>=5)
+	*golfmap1
+		name:Garden
+		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.5 Minigolf production.
+		icon:https://i.imgur.com/1kkFPvT.png
+		cost:2000 gameunits
+		passive:multiply yield of golf by 1.5
+		req:(golf>=1)
 	*golfmap2
 		name:Waterhole
-		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.25 Minigolf production.
+		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/1kkFPvT.png
 		cost:8000 gameunits
 		passive:multiply yield of golf by 1.5
