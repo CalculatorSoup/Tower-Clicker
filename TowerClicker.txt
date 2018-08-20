@@ -257,7 +257,7 @@ Upgrades
 Shinies
        *snail
                name:Snail
+	       icon:https://i.imgur.com/qCUNSCi.png
                on click:yield (random(10,100)) gameunits
                movement:followMouseSlow:50
                frequency:1
-	       icon:https://i.imgur.com/qCUNSCi.png
