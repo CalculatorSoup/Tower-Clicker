@@ -258,7 +258,7 @@ Shinies
        *snail
                name:Snail
                on click:yield (random(10,100)) gameunits
-               movement:random wiggle grow
+               movement:anywhere wiggle grow
                frequency:10
 	       frequency variation:10
 	       duration:10
@@ -266,7 +266,7 @@ Shinies
        *cosmicCat
                name:Cosmic Catsack
                on click:yield (random(100,000)) condounits
-               movement:random shrink spin CW
+               movement:anywhere shrink spin CW
                frequency:10
 	       frequency variation:10
 	       duration:10
@@ -274,7 +274,7 @@ Shinies
        *Test
                name:Potato [;
                on click:yield (random(100,000)) plazaunits
-               movement:random bounce
+               movement:anywhere bounce
                frequency:10
 	       frequency variation:10
 	       duration:10
