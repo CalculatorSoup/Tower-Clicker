@@ -255,9 +255,8 @@ Upgrades
 
 
 Shinies
-        *snail
-                name:Snail
-		on click:yield (random(5,000)) condounits yield (random(5,000)) plazaunits yield (random(5,000)) gameunits
-                movement:followMouseSlow:5 fade bounce growShrink
-		icon:https://i.imgur.com/qCUNSCi.png
-                frequency:1
+       *snail
+               name:Snail
+               on click:yield (random(10,100)) gameunits
+               movement:followMouseSlow
+               frequency:1
