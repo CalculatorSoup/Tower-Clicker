@@ -257,7 +257,7 @@ Shinies
        *snail
                name:Snail
                on click:yield (random(10,100)) gameunits
-               movement:anywhere wiggle grow followMouseSlow:5
+               movement:anywhere wiggle grow followMouseSlow
                frequency:10
 	       frequency variation:10
 	       duration:10
