@@ -233,4 +233,4 @@ Shinies
 		on click:yield (random(5,000)) plazaunits
 		icon:https://i.imgur.com/qCUNSCi.png
                 movement:followMouseSlow:5 fade bounce growShrink
-                frequency:5
+                frequency:1
