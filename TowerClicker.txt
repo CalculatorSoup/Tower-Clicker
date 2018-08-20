@@ -258,5 +258,6 @@ Shinies
        *snail
                name:Snail
                on click:yield (random(10,100)) gameunits
-               movement:followMouseSlow
+               movement:followMouseSlow:50
                frequency:1
+	       icon:https://i.imgur.com/qCUNSCi.png
