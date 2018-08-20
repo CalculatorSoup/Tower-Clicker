@@ -23,7 +23,7 @@ Buttons
 		on click:yield 1 plazaunit
 		on click:yield 2 condounit
 		on click:yield 5 gameunit
-		icon:https://i.imgur.com/DQiB3YN.png?1
+		icon:https://i.imgur.com/DQiB3YN.png?2
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -69,8 +69,7 @@ Buildings
 		cost:150 plazaunits
 		on tick:yield 2.5 plazaunits
 		req:(typingDerby>=5)
-		limit:500
-		cost increase:110%
+		cost increase:115%
 	*item|items
 		name:New Item
 		desc:Make a new item for the condos. <//><b>Effect:</b><.>Produces 1 condo unit every second.
@@ -133,6 +132,7 @@ Buildings
 		on tick:yield 1000 gameunits
 		cost increase:160%
 		req:(v>100)
+		limit:500
 		
 Upgrades
 	*TEMPLATE
@@ -259,5 +259,17 @@ Shinies
                name:Snail
 	       icon:https://i.imgur.com/qCUNSCi.png
                on click:yield (random(10,100)) gameunits
+               movement:followMouseSlow:50
+               frequency:1
+       *cosmicCat
+               name:Cosmic Catsack
+	       icon:https://i.imgur.com/qCUNSCi.png
+               on click:yield (random(100,000)) condounits
+               movement:followMouseSlow:50
+               frequency:1
+       *Test
+               name:Test
+	       icon:https://i.imgur.com/qCUNSCi.png
+               on click:yield (random(100,000)) plazaunits
                movement:followMouseSlow:50
                frequency:1
