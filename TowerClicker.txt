@@ -151,22 +151,13 @@ Upgrades
 		req:(item>=15)
 	*silvercatsack
 		name:Silver Catsacks
-		desc:Silver Catsacks are upgraded catsacks that give a random item when opened. <//><b>Effect:</b><.>X3 New Item  production.
+		desc:Silver Catsacks are upgraded catsacks that give a random item when opened. <//><b>Effect:</b><.>Golden Catsacks, Cosmic Catsacks, Snails and Potatoes will start appearing occasionally.
 		icon:https://i.imgur.com/O1iv7se.png?1
 		cost:10000 condounits
 		passive:multiply yield of item by 3
-		req:10000 condounits:earned
+		req:100000 condounits:earned
 		req:(item>=30)
 		req:(catsack>=1)
-	*goldcatsack
-		name:Golden Catsacks
-		desc:Golden Catsacks are rare catsacks that can only come from silver ones. <//><b>Effect:</b><.>Snails and Cosmic Catsacks start appearing occasionally.
-		icon:https://i.imgur.com/tC6pj6n.png?1
-		cost:100000 condounits
-		passive:multiply yield of item by 3
-		req:15000 condounits:earned
-		req:(item>=50)
-		req:(silvercatsack>=1)
 		
 	*robs
 		name:Rob's Imports
@@ -255,6 +246,14 @@ Upgrades
 
 
 Shinies
+       *goldCat
+               name:Golden Catsack
+               on click:yield (random(100,000)) condounits
+               movement:anywhere shrink spinCW
+               frequency:10
+	       frequency variation:10
+	       duration:10
+	       icon:https://i.imgur.com/qCUNSCi.png
        *snail
                name:Snail
                on click:yield (random(10,100)) gameunits
@@ -271,10 +270,10 @@ Shinies
 	       frequency variation:10
 	       duration:10
 	       icon:https://i.imgur.com/qCUNSCi.png
-       *Test
-               name:Potato [;
+       *Potato
+               name:Potato
                on click:yield (random(100,000)) plazaunits
-               movement:anywhere bounce
+               movement:anywhere bounce moveRandom
                frequency:10
 	       frequency variation:10
 	       duration:10
