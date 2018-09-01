@@ -281,4 +281,4 @@ Shinies
                frequency:30
 	       frequency variation:20
 	       duration:10
-	       icon:https://i.imgur.com/qCUNSCi.png
+	       icon:http://cdn.towerunite.com/images/Potato.png
