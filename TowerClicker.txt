@@ -248,7 +248,7 @@ Upgrades
 Shinies
        *goldCat
                name:Golden Catsack
-               on click:yield (random(100,000)) condounits
+               on click:yield (random(10000)) condounits
 	       on click:toast The Catsack opened and it contained <//><b>[$amount] condo units</b>!
                movement:anywhere shrink spinCW
                frequency:10
@@ -275,7 +275,7 @@ Shinies
 	       icon:stuff/https://i.imgur.com/qCUNSCi.png
        *Potato
                name:Potato
-               on click:yield (random(1,000)) plazaunits
+               on click:yield (random(1000)) plazaunits
 	       on click:toast You got <//><b>[$amount] plaza units</b>!
                movement:anywhere bounce moveRandom
                frequency:30
