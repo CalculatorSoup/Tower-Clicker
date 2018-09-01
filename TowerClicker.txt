@@ -250,6 +250,7 @@ Shinies
                name:Golden Catsack
                on click:yield (random(10000)) condounits
 	       on click:toast The Catsack opened and it contained <//><b>[$amount] condo units</b>!
+	       req:silvercatsack
                movement:anywhere shrink spinCW
                frequency:10
 	       frequency variation:10
@@ -259,6 +260,7 @@ Shinies
                name:Snail
                on click:yield (random(10000)) gameunits
 	       on click:toast The snail gave you <//><b>[$amount] game world units</b>!
+	       req:silvercatsack
                movement:anywhere wiggle grow followMouseSlow
                frequency:70
 	       frequency variation:40
@@ -268,6 +270,7 @@ Shinies
                name:Cosmic Catsack
                on click:yield (random(200000)) condounits
 	       on click:toast The Catsack opened and it contained <//><b>[$amount] condo units</b>!
+	       req:silvercatsack
                movement:anywhere shrink spinCW
                frequency:500
 	       frequency variation:100
@@ -277,6 +280,7 @@ Shinies
                name:Potato
                on click:yield (random(1000)) plazaunits
 	       on click:toast You got <//><b>[$amount] plaza units</b>!
+	       req:silvercatsack
                movement:anywhere bounce moveRandom
                frequency:30
 	       frequency variation:20
