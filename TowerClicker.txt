@@ -106,7 +106,7 @@ Buildings
 		icon:https://i.imgur.com/RTtoQg3.png?1
 		cost:10000 gameunits
 		on tick:yield 20 gameunits
-		cost increase:130%
+		cost increase:110%
 		req:(ballrace>15)
 	*zm
 		name:Zombie Massacre
@@ -114,7 +114,7 @@ Buildings
 		icon:https://i.imgur.com/Oa6pUAy.png?1
 		cost:300000 gameunits
 		on tick:yield 50 gameunits
-		cost increase:140%
+		cost increase:115%
 		req:(lc>30)
 	*v
 		name:Virus
@@ -122,7 +122,7 @@ Buildings
 		icon:https://i.imgur.com/xCOmmx4.png?1
 		cost:5000000 gameunits
 		on tick:yield 500 gameunits
-		cost increase:150%
+		cost increase:115%
 		req:(zm>50)
 	*golf
 		name:Minigolf
@@ -130,7 +130,7 @@ Buildings
 		icon:https://i.imgur.com/1kkFPvT.png?1
 		cost:10000000 gameunits
 		on tick:yield 1000 gameunits
-		cost increase:160%
+		cost increase:115%
 		req:(v>100)
 		limit:500
 		
