@@ -91,7 +91,7 @@ Buildings
 		icon:https://i.imgur.com/39f2Mzn.png?1
 		cost:100 gameunits
 		on tick:yield 1 gameunits
-		cost increase:110%
+		cost increase:105%
 	*ballrace
 		name:Ball Race
 		desc:A competitive Game World about collecting melons and getting to the finish. <//><b>Effect:</b><.>Produces 5 game world units every second.
