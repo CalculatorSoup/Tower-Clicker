@@ -98,7 +98,7 @@ Buildings
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:1500 gameunits
 		on tick:yield 5 gameunits
-		cost increase:120%
+		cost increase:105%
 		req:(planet>5)
 	*lc
 		name:Little Crusaders
@@ -106,7 +106,7 @@ Buildings
 		icon:https://i.imgur.com/RTtoQg3.png?1
 		cost:10000 gameunits
 		on tick:yield 20 gameunits
-		cost increase:105%
+		cost increase:115%
 		req:(ballrace>15)
 	*zm
 		name:Zombie Massacre
