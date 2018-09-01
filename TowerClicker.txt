@@ -73,7 +73,7 @@ Buildings
 	*item|items
 		name:New Item
 		desc:Make a new item for the condos. <//><b>Effect:</b><.>Produces 1 condo unit every second.
-		icon:https://i.imgur.com/uibRSSO.png
+		icon:https://i.imgur.com/5HBm5Om.png?1
 		cost:50 condounits
 		on tick:yield 1 condounit
 		cost increase:115%
@@ -249,6 +249,7 @@ Shinies
        *goldCat
                name:Golden Catsack
                on click:yield (random(100,000)) condounits
+	       on click:toast You got condo units!
                movement:anywhere shrink spinCW
                frequency:10
 	       frequency variation:10
@@ -257,6 +258,7 @@ Shinies
        *snail
                name:Snail
                on click:yield (random(10000)) gameunits
+	       on click:toast The snail gave you game world units!
                movement:anywhere wiggle grow followMouseSlow
                frequency:70
 	       frequency variation:40
@@ -264,7 +266,8 @@ Shinies
 	       icon:https://i.imgur.com/qCUNSCi.png
        *cosmicCat
                name:Cosmic Catsack
-               on click:yield (random(100000)) condounits
+               on click:yield (random(200000)) condounits
+	       on click:toast You got condo units!
                movement:anywhere shrink spinCW
                frequency:500
 	       frequency variation:100
@@ -273,7 +276,7 @@ Shinies
        *Potato
                name:Potato
                on click:yield (random(1,000)) plazaunits
-	       on click:toast You got $number plaza units!
+	       on click:toast You got plaza units!
                movement:anywhere bounce moveRandom
                frequency:30
 	       frequency variation:20
