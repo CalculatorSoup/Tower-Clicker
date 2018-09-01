@@ -281,5 +281,5 @@ Shinies
                frequency:30
 	       frequency variation:20
 	       duration:10
-	       toast The Potato was squished and it contained<//><b>[$amount] golden carrot[s?$amount]</b>!
+	       toast The Potato was squished and it contained<//><b>[$amount] condo unit[s?$amount]</b>!
 	       icon:https://i.imgur.com/qCUNSCi.png
