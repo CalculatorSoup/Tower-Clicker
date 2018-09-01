@@ -254,7 +254,7 @@ Shinies
                frequency:10
 	       frequency variation:10
 	       duration:10
-	       icon:stuff/https://i.imgur.com/qCUNSCi.png
+	       icon:https://i.imgur.com/qCUNSCi.png
        *snail
                name:Snail
                on click:yield (random(10000)) gameunits
@@ -263,7 +263,7 @@ Shinies
                frequency:70
 	       frequency variation:40
 	       duration:10
-	       icon:stuff/https://i.imgur.com/qCUNSCi.png
+	       icon:https://i.imgur.com/qCUNSCi.png
        *cosmicCat
                name:Cosmic Catsack
                on click:yield (random(200000)) condounits
@@ -272,7 +272,7 @@ Shinies
                frequency:500
 	       frequency variation:100
 	       duration:10
-	       icon:stuff/https://i.imgur.com/qCUNSCi.png
+	       icon:https://i.imgur.com/qCUNSCi.png
        *Potato
                name:Potato
                on click:yield (random(1000)) plazaunits
@@ -281,4 +281,4 @@ Shinies
                frequency:30
 	       frequency variation:20
 	       duration:10
-	       icon:stuff/http://cdn.towerunite.com/images/Potato.png
+	       icon:http://cdn.towerunite.com/images/Potato.png
