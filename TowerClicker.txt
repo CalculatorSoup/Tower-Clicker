@@ -115,7 +115,7 @@ Buildings
 		cost:300000 gameunits
 		on tick:yield 50 gameunits
 		cost increase:110%
-		req:(lc>30)
+		req:(lc>20)
 	*v
 		name:Virus
 		desc:A game world where a zombie has to spread the virus to everybody. <//><b>Effect:</b><.>Produces 20 game world units every second.
@@ -123,7 +123,7 @@ Buildings
 		cost:5000000 gameunits
 		on tick:yield 500 gameunits
 		cost increase:110%
-		req:(zm>50)
+		req:(zm>20)
 	*golf
 		name:Minigolf
 		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 80 game world units every second.
@@ -131,7 +131,7 @@ Buildings
 		cost:10000000 gameunits
 		on tick:yield 1000 gameunits
 		cost increase:100%
-		req:(v>100)
+		req:(v>30)
 		limit:500
 		
 Upgrades
