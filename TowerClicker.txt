@@ -193,42 +193,42 @@ Upgrades
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:8000 gameunits
 		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
+		req:(ballrace>=10)
 	*ballmap4
 		name:Memories
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:15000 gameunits
 		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
+		req:(ballrace>=20)
 	*ballmap5
 		name:Summit
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:25000 gameunits
 		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
+		req:(ballrace>=40)
 	*ballmap6
 		name:Khromidro
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:50000 gameunits
 		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
+		req:(ballrace>=60)
 	*ballmap7
 		name:Midori
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:750000 gameunits
 		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
+		req:(ballrace>=80)
 	*ballmap8
 		name:Prism
 		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
 		icon:https://i.imgur.com/as59OSc.png?1
 		cost:150000 gameunits
 		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
+		req:(ballrace>=100)
 	*golfmap1
 		name:Garden
 		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.5 Minigolf production.
