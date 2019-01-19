@@ -258,7 +258,7 @@ Shinies
 	       icon:https://i.imgur.com/qCUNSCi.png
        *snail
                name:Snail
-               on click:passive:multiply yield of item by 1.5
+               on click:multiply yield of item by 1.5
 	       on click:toast The snail improves your items' production 1.5x!
 	       req:silvercatsack
                movement:anywhere wiggle grow followMouseSlow
