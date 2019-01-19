@@ -3,8 +3,8 @@ Let's make a game!
 	by:rrmm
 	desc:Testing
 	created:8/18/18
-	updated:8/19/18
-	version:0.4
+	updated:1/19/19
+	version:0.4.0.1
 
 Settings
 	background:https://i.imgur.com/ko1yDMX.jpg
@@ -23,7 +23,7 @@ Buttons
 		on click:yield 1 plazaunit
 		on click:yield 2 condounit
 		on click:yield 5 gameunit
-		icon:https://i.imgur.com/A3q5zSN.png?1
+		icon:https://i.imgur.com/A3q5zSN.png?2
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
