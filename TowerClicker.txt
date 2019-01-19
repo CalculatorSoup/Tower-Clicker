@@ -248,37 +248,37 @@ Upgrades
 Shinies
        *goldCat
                name:Golden Catsack
-               on click:yield (random(10000)) condounits
+               on click:yield (random(10,100)) condounits
 	       on click:toast The Catsack opened and it contained <//><b>[$amount] condo units</b>!
 	       req:silvercatsack
                movement:anywhere shrink spinCW
-               frequency:10
+               frequency:300
 	       frequency variation:10
 	       duration:10
 	       icon:https://i.imgur.com/qCUNSCi.png
        *snail
                name:Snail
-               on click:yield (random(10000)) gameunits
+               on click:yield (random(10,100)) gameunits
 	       on click:toast The snail gave you <//><b>[$amount] game world units</b>!
 	       req:silvercatsack
                movement:anywhere wiggle grow followMouseSlow
-               frequency:70
+               frequency:200
 	       frequency variation:40
 	       duration:10
 	       icon:https://i.imgur.com/qCUNSCi.png
        *cosmicCat
                name:Cosmic Catsack
-               on click:yield (random(200000)) condounits
+               on click:yield (random(10,100)) condounits
 	       on click:toast The Cosmic Catsack opened and contained <//><b>[$amount] condo units</b>!
 	       req:silvercatsack
                movement:anywhere shrink spinCW
-               frequency:500
+               frequency:1000
 	       frequency variation:100
 	       duration:10
 	       icon:https://i.imgur.com/qCUNSCi.png
        *Potato
                name:Potato
-               on click:yield (random(1000)) plazaunits
+               on click:yield (random(10,100)) plazaunits
 	       on click:toast The potato splatted to the ground and had <//><b>[$amount] plaza units</b> in it!
 	       req:silvercatsack
                movement:anywhere bounce moveRandom
