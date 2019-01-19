@@ -23,7 +23,7 @@ Buttons
 		on click:yield 1 plazaunit
 		on click:yield 2 condounit
 		on click:yield 5 gameunit
-		icon:https://i.imgur.com/DQiB3YN.png?2
+		icon:https://i.imgur.com/A3q5zSN.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -55,7 +55,7 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*typingDerby
+	*typingDerby|derby
 		name:Typing Derby
 		desc:A fun racing game in the plaza about typing. <//><b>Effect:</b><.>Produces 1 plaza unit every second.
 		icon:https://i.imgur.com/p5Mkqnx.png
@@ -126,7 +126,7 @@ Buildings
 		req:(zm>20)
 	*golf
 		name:Minigolf
-		desc:A very popular, simple golfing Game World. <//><b>Effect:</b><.>Produces 80 game world units every second.
+		desc:A very popular, simple golfing Game World. The only thing Youtubers will ever play. <//><b>Effect:</b><.>Produces 80 game world units every second.
 		icon:https://i.imgur.com/1kkFPvT.png?1
 		cost:10000000 gameunits
 		on tick:yield 1000 gameunits
@@ -269,7 +269,7 @@ Shinies
        *cosmicCat
                name:Cosmic Catsack
                on click:yield (random(200000)) condounits
-	       on click:toast The Catsack opened and it contained <//><b>[$amount] condo units</b>!
+	       on click:toast The Cosmic Catsack opened and contained <//><b>[$amount] condo units</b>!
 	       req:silvercatsack
                movement:anywhere shrink spinCW
                frequency:500
@@ -279,7 +279,7 @@ Shinies
        *Potato
                name:Potato
                on click:yield (random(1000)) plazaunits
-	       on click:toast You got <//><b>[$amount] plaza units</b>!
+	       on click:toast The potato splatted to the ground and had <//><b>[$amount] plaza units</b> in it!
 	       req:silvercatsack
                movement:anywhere bounce moveRandom
                frequency:30
