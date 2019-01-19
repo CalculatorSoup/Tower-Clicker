@@ -23,7 +23,7 @@ Buttons
 		on click:yield 1 plazaunit
 		on click:yield 2 condounit
 		on click:yield 5 gameunit
-		icon:https://i.imgur.com/A3q5zSN.png
+		icon:https://i.imgur.com/A3q5zSN.png?1
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
